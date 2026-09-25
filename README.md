@@ -128,19 +128,6 @@ y(t) &= \sum_{k=1}^{K} r_k \sin(n_k t + \phi_k)
 
 ---
 
-## 🏆 International Hackathon Presentation Guide (3-Minute Pitch)
-
-Use this script during your hackathon demo to secure top marks from judges:
-
-| Time | Action | What to Say |
-| :--- | :--- | :--- |
-| **0:00 - 0:30** | Open EpiGraph AI with default Cardioid or Einstein preset running. | *"Judges, every day millions of images are stored as dumb pixels. But in pure mathematics, any image can be represented as an exact closed-form algebraic formula. Today, we introduce **EpiGraph AI**—the first inverse mathematical vision engine that turns any picture into pure closed-form Fourier equations and planetary epicycles."* |
-| **0:30 - 1:15** | Click "Draw Live", draw a quick shape, or upload an image. Show the epicycles spinning. | *"Watch: when an image or sketch is provided, our browser-accelerated computer vision pipeline computes an Eulerian topological contour in milliseconds. It runs a 2D Discrete Fourier Transform to decompose the image into rotating complex gears that physically draw the picture before your eyes."* |
-| **1:15 - 1:50** | Switch to the **3D Manifold** tab, orbit the 3D surface, then toggle the **Audio Sonification** icon. | *"We don't just stop at 2D. We project these equations into a 3D topological manifold ribbon in WebGL. And with our Web Audio sonification engine, you can actually **hear** the mathematical harmonic frequencies of the image."* |
-| **1:50 - 2:30** | Scroll to the **Mathematical Equations Engine**, click **"Desmos Format"**, and show the formulas. | *"Most importantly, we give the user the exact equations. With one click, you can copy the full LaTeX system for academic research, or copy the exact parametric equations directly into Desmos or Python to plot and analyze anywhere."* |
-| **2:30 - 3:00** | Open the **Spectrometry Report** modal. | *"We also calculate topological Euler characteristics, spectral Shannon entropy, and bilateral symmetry. EpiGraph AI bridges computer vision, signal processing, and pure mathematics into an open-source tool for educators, researchers, and creators worldwide."* |
-
----
 
 ## 🚀 Quickstart & Setup
 
@@ -163,7 +150,7 @@ npm install
 npm run dev
 ```
 
-Visit `http://localhost:3000` in your web browser.
+Visit `` in your web browser.
 
 ### Production Build
 ```bash
