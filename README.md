@@ -130,43 +130,6 @@ y(t) &= \sum_{k=1}^{K} r_k \sin(n_k t + \phi_k)
 
 
 
-
-## 📂 Project Architecture
-
-```
-epigraph-ai/
-├── src/
-│   ├── audio/
-│   │   └── sonifier.ts             # Web Audio API harmonic frequency synthesizer
-│   ├── components/
-│   │   ├── DrawingPad.tsx          # Freehand sketch canvas for direct input
-│   │   ├── EpicycleCanvas.tsx      # 2D Canvas rendering rotating Fourier gears
-│   │   ├── EquationViewer.tsx      # KaTeX LaTeX, Desmos, Python, GeoGebra export
-│   │   ├── Header.tsx              # Top navigation, mode switch, telemetry
-│   │   ├── ImageUploader.tsx       # Drag & drop, Sobel thresholding, edge preview
-│   │   ├── MathAnalysisModal.tsx   # Topological metrics & spectral entropy modal
-│   │   ├── PresetGallery.tsx       # Curated benchmark presets
-│   │   └── ThreeDSurfaceCanvas.tsx # Three.js 3D WebGL parametric manifold
-│   ├── cv/
-│   │   ├── imageProcessor.ts       # Sobel edge filter, RDP simplification, Euler tour
-│   │   └── presets.ts              # Mathematical and iconic benchmark definitions
-│   ├── math/
-│   │   ├── bezier.ts               # Cubic Bezier curve fitting & polynomial conversion
-│   │   ├── complex.ts              # Complex number primitive (re, im, magnitude, phase)
-│   │   ├── dft.ts                  # 2D Discrete Fourier Transform & epicycle evaluator
-│   │   └── latexExporter.ts        # LaTeX, Desmos, Python, and GeoGebra formula formatters
-│   ├── App.tsx                     # Core state coordinator & layout
-│   ├── index.css                   # Tailwind CSS & KaTeX dark styling
-│   └── main.tsx                    # React DOM entry point
-├── index.html                      # HTML template with fonts and KaTeX CDN
-├── package.json                    # Project dependencies & scripts
-├── tsconfig.json                   # TypeScript compiler configuration
-├── vite.config.ts                  # Vite bundler configuration
-└── README.md                       # Comprehensive documentation & pitch guide
-```
-
----
-
 ## 📄 License
 This project is open-source and released under the [MIT License](LICENSE).
 
