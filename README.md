@@ -129,36 +129,7 @@ y(t) &= \sum_{k=1}^{K} r_k \sin(n_k t + \phi_k)
 ---
 
 
-## 🚀 Quickstart & Setup
 
-### Prerequisites
-* Node.js $\ge$ 18.0.0
-* npm $\ge$ 9.0.0
-
-### Installation
-```bash
-# Clone the repository
-git clone https://github.com/Coder7895/GRAPH-MAKER.git
-
-# Navigate to project directory
-cd GRAPH-MAKER
-
-# Install dependencies
-npm install
-
-# Start local development server
-npm run dev
-```
-
-Visit `` in your web browser.
-
-### Production Build
-```bash
-npm run build
-npm run preview
-```
-
----
 
 ## 📂 Project Architecture
 
